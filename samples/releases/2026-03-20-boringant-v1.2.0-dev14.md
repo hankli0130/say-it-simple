@@ -1,5 +1,5 @@
 ---
-audience: US Boss/team
+audience: US Boss/teams
 channel: Mattermost
 goal: 通知發布 Android APK BoringAnt v1.2.0-dev14 和本次更新內容
 ---

@@ -1,5 +1,5 @@
 ---
-audience: US Boss/team
+audience: US Boss/teams/investors
 channel: Mattermost
 goal: 每週進度回報
 ---

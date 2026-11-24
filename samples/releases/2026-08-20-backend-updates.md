@@ -1,5 +1,5 @@
 ---
-audience: US Boss/team
+audience: US Boss/teams
 channel: Mattermost
 goal: 通知完成後端 OTP API service 更新
 ---
