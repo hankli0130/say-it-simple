@@ -8,17 +8,13 @@
   - 每天、每週回報專案進度
   - 報告新版本發布的內容
 
-## 第一週執行計畫
+## 執行計畫
 
-每天在 Mattermost 寫完英文日報後，用同一份內容練 5 分鐘口說。目標是在每週視訊會議上，只看三、四個關鍵字就能用 30 秒講清楚進度，並回答一題追問。
+1. **我寫英文報告。** 進度報告放在 `samples/progress/`，版本發布報告放在 `samples/releases/`。寫完後，把檔案路徑給 AI Agent，說明要給誰看、希望對方知道什麼。
+2. **AI Agent 在對話中 review，我自己修改。** AI Agent 指出需要調整的原句，說明原因，必要時提供英文改寫範例。Review 意見和改寫範例只留在對話中，由我決定怎麼修改報告。
+3. **AI Agent 把口說練習和會議追問寫進檔案。** 我確認報告內容後，AI Agent 依據定稿，在我寫的同一份報告末尾加上「口說練習」和「會議追問」兩節，寫入一段約 30 秒的英文口說稿、三到四個提示關鍵字，以及一題聽眾可能提出的英文追問和參考回答。
 
-### 打字時可以直接套用的樣本
-
-| 情境 | 英文樣本 |
-| --- | --- |
-| 完成一項工作，接著做下一項 | I finished setting up CI for `root-android`. I’m now working on CI for `root-rust`. |
-| 測試要等帳號設定完成 | The RevenueCat integration is complete. I’m waiting for the Stripe account setup before I can start testing. |
-| 發布修正版，用戶端無須修改 | I just released `otp-service` v0.5.0-dev3. This release includes bug fixes. No changes are needed on the client side. |
+每次用報告末尾的練習內容練 5 分鐘。目標是在每週視訊會議上，只看關鍵字就能講清楚進度或發布重點，並回答一題追問。
 
 ### 每天 5 分鐘口說練習
 
@@ -37,5 +33,3 @@
 ### 視訊會議當天
 
 從本週日報挑出想讓聽眾記住的進展，寫下三、四個英文關鍵字。開會前只看關鍵字講一次，計時約 30 秒，再練一題對方可能會問的問題。
-
-需要一起練時，貼上當天的日報，附一句「要給誰看、希望對方知道或做什麼」。每次用這份日報練三樣：可直接發的文字版、30 秒口說版，以及一題會議追問和回答。
